@@ -1,0 +1,40 @@
+# To find the downstream depth of open channel
+2 # Given Data
+3 Q= float (input("Enter the value of Discharge:")
+4 T= int(input("Enter the value of top width:")
+5g=float(input("Enter the value of acceleration due to Gravity:")
+6 y1 = float(input("enter the value of upstream depth:")
+7Z= float(input("Enter the Value of hump: ")
+8# Dicharge per meter width
+9q=Q/T
+10 print ("The value of discharge per meter width is:", q)
+11 # Area Calculation
+12 A1= T*y1
+13 print ("The value of upstream area is:", A1)
+14 # Calculation of Froude Number
+15 Fr1 = (Q*Q*T)/(g*A1* A1 *A1)) * *0.5
+16 print ("The value of Froude number is:", Fr1)
+17 if Fr1>1:
+18 print("The flow is Super Critical Flow")
+1) else:
+Adhav
+20 print("The flow is Sub Critical Flow")
+21#Upstream Energy
+22 E1 = y1 + (Q*Q)/(2 *g*A1 *A1))
+23 print ("The value of Energy at initial Section is:", E1)
+24 # Downstream Energy
+25 E2 = E1 -Z
+26 print ("The value of downstream Energy E2 is:", E2)
+27 # Critical Depth
+28 yc = (q*a/e)**0.3333
+29 print ("The Value of critical depth is:", yc)
+30 Ec = 1,5*yc
+18
+31 print ("The value of critical Energy is", Ec)
+32 if Ec>E2:
+33 print ("Chocking Conditlon")
+34 else:
+35 print ("SAFE")
+36 # Calculation of Zmax
+37 Zmax =El- Ec
+38 print ("The value of maxinmum hump is:", Zmax) 
