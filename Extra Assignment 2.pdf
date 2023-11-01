@@ -1,0 +1,117 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "# Given dimensions\n",
+        "length_longer_side = 4  # meters\n",
+        "length_shorter_side = 2  # meters\n",
+        "depth = 0.5  # meters\n",
+        "base_width = 1  # meter\n",
+        "\n",
+        "# Calculate the volume of concrete\n",
+        "volume = 0.5 * (length_longer_side + length_shorter_side) * depth * base_width\n",
+        "\n",
+        "# Print the result\n",
+        "print(\"Volume of Concrete Required: {:.2f} cubic meters\".format(volume))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7371Hp3F3lzx",
+        "outputId": "9bdf4c12-830f-4e63-a6cf-4746b1652309"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Volume of Concrete Required: 1.50 cubic meters\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Given dimensions for the larger trapezoidal footing\n",
+        "length_longer_side = 6  # meters\n",
+        "length_shorter_side = 3  # meters\n",
+        "depth = 1  # meter\n",
+        "base_width = 1.5  # meters\n",
+        "\n",
+        "# Calculate the volume of concrete\n",
+        "volume = 0.5 * (length_longer_side + length_shorter_side) * depth * base_width\n",
+        "\n",
+        "# Print the result\n",
+        "print(\"Volume of Concrete Required for Larger Trapezoidal Footing: {:.2f} cubic meters\".format(volume))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "70tl0eDN4qij",
+        "outputId": "810831fb-9100-48c3-f591-07eef7143f20"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Volume of Concrete Required for Larger Trapezoidal Footing: 6.75 cubic meters\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Given dimensions for the heavy-duty trapezoidal footing\n",
+        "length_longer_side = 8  # meters\n",
+        "length_shorter_side = 4  # meters\n",
+        "depth = 1.2  # meters\n",
+        "base_width = 2  # meters\n",
+        "\n",
+        "# Calculate the volume of concrete\n",
+        "volume = 0.5 * (length_longer_side + length_shorter_side) * depth * base_width\n",
+        "\n",
+        "# Print the result\n",
+        "print(\"Volume of Concrete Required for Heavy-Duty Trapezoidal Footing: {:.2f} cubic meters\".format(volume))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1-cqgj-b4tMZ",
+        "outputId": "21d66ddd-8bbe-486d-df2f-2f797fbbe5dc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Volume of Concrete Required for Heavy-Duty Trapezoidal Footing: 14.40 cubic meters\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
